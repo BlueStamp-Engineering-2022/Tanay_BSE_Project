@@ -1,4 +1,4 @@
-﻿# Wall-E
+﻿# Wall-E Robot
 This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
 
 | Tanay Ubale | Lynbrook High School | Electrical Engineering | Incoming Sophmore |
