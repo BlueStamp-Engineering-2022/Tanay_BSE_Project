@@ -1,8 +1,7 @@
 ﻿# Wall-E
 This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
 
-| Tanay Ubale | Lynbrook High School | Electrical Engineering | Incoming Sophmore |
-|:--:|:--:|:--:|:--:|
+| Tanay Ubale | Lynbrook High School | Electrical Engineering | Incoming Sophmore 
 
 ![Headstone Image]([https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg](https://lh3.googleusercontent.com/pw/AM-JKLUDq0wRC3qR9qC5dYnIvFOpMj4jKLpGfRvcibnBTSsitnyis_B0NCvtoEBhJSYmV1hCXXPMaOhh-L79sPwUqw2xq2A0KSKWGnK1KC7m80ClOUeC7SOpc8dQ0Sw4YNlts_xtgwZ6cQIKO-CQrxXjb9zQ=w742-h741-no?authuser=0](https://lh3.googleusercontent.com/pw/AM-JKLUDq0wRC3qR9qC5dYnIvFOpMj4jKLpGfRvcibnBTSsitnyis_B0NCvtoEBhJSYmV1hCXXPMaOhh-L79sPwUqw2xq2A0KSKWGnK1KC7m80ClOUeC7SOpc8dQ0Sw4YNlts_xtgwZ6cQIKO-CQrxXjb9zQ=w742-h741-no?authuser=0](https://lh3.googleusercontent.com/pw/AM-JKLUDq0wRC3qR9qC5dYnIvFOpMj4jKLpGfRvcibnBTSsitnyis_B0NCvtoEBhJSYmV1hCXXPMaOhh-L79sPwUqw2xq2A0KSKWGnK1KC7m80ClOUeC7SOpc8dQ0Sw4YNlts_xtgwZ6cQIKO-CQrxXjb9zQ=w742-h741-no?authuser=0))
   
