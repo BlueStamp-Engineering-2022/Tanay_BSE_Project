@@ -5,7 +5,7 @@ This will serve as a brief description of your project. Limit this to three sent
 |:--:|:--:|:--:|:--:|
 | Tanay Ubale | Lynbrook High School | Electrical Engineering | Incoming Sophomore
 
-![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
+![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLUDq0wRC3qR9qC5dYnIvFOpMj4jKLpGfRvcibnBTSsitnyis_B0NCvtoEBhJSYmV1hCXXPMaOhh-L79sPwUqw2xq2A0KSKWGnK1KC7m80ClOUeC7SOpc8dQ0Sw4YNlts_xtgwZ6cQIKO-CQrxXjb9zQ=w742-h741-no?authuser=0)
   
 # Final Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
