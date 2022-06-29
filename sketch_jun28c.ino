@@ -1,14 +1,31 @@
+#include "LedControlMS.h"
+
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-#include "LedControl.h"
+
 
 const int trigPin = 7;
 const int echoPin = 8;
 
-int randomNumber = random(1,2);
+int randomNumber = 1;
 LiquidCrystal_I2C lcd(0x27, 16, 1);
 //define variables
-LedControl lc = LedControl(11, 13, 12, 1);
+
+
+#define NBR_MTX 2
+#define NEUTRAL 1
+#define SURPRISED 2
+#define HAPPY 3
+#define ANGRY 4
+#define LOVE 5
+
+
+
+
+int emotion = NEUTRAL;
+
+LedControl lc = LedControl(11, 13, 12, NBR_MTX);
+
 long duration; // variable for the duration of sound wave travel
 int distance; // variable for the distance measurement
 
@@ -17,17 +34,20 @@ byte neutral[8] = {0x00, 0x3c, 0x42, 0x5a, 0x5a, 0x42, 0x3c, 0x00};
 byte happy[8] = {0x00, 0x1c, 0x24, 0x5c, 0x5c, 0x24, 0x1c, 0x00};
 byte angry[8] = {0x00, 0x3c, 0x42, 0x5a, 0x5a, 0x42, 0x3c, 0x00};
 byte surprised[8] = {0x7e, 0x81, 0x81, 0x99, 0x99, 0x81, 0x81, 0x7e};
-byte love[8] = {0x00,0x66,0x99,0x81,0x42,0x24,0x18,0x00};
-byte defualt[8] = {0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff};
+byte love[8] = {0x00, 0x66, 0x99, 0x81, 0x42, 0x24, 0x18, 0x00};
 
 void setup()
 {
 
   lc.shutdown(0, false);
+  lc.shutdown(1, false);
   /* Set the brightness to a medium values */
   lc.setIntensity(0, 8);
+  lc.setIntensity(1, 8);
   /* and clear the display */
   lc.clearDisplay(0);
+  lc.clearDisplay(1);
+
 
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an OUTPUT
   pinMode(echoPin, INPUT); // Sets the echoPin as an INPUT
@@ -82,31 +102,38 @@ void loop()
     lcd.print("Error       ");
     }*/
 
-
   if (randomNumber == 1) {
-    if (distance <= 5) {
+    if (distance <= 5 && emotion != SURPRISED)  {
       lc.clearDisplay(0);
-      printByte(surprised); 
+      lc.clearDisplay(1);
+      emotion = SURPRISED;
+      printByte(surprised);
     }
-    else if (5 < distance && distance <= 15)
+    else if (5 < distance && distance <= 15 && emotion != LOVE )
     {
       lc.clearDisplay(0);
-      printByte(defualt);
+      lc.clearDisplay(1);
+      emotion = LOVE;
+      printByte(love);
     }
-    else if (15 < distance && distance < 25)
+    else if (15 < distance && distance < 25 && emotion != HAPPY)
     {
       lc.clearDisplay(0);
+      lc.clearDisplay(1);
+      emotion = HAPPY;
       printByte(happy);
     }
-    else
+    else if (distance >= 25 && emotion != NEUTRAL)
     {
       lc.clearDisplay(0);
+      lc.clearDisplay(1);
+      emotion = NEUTRAL;
       printByte(neutral);
     }
   }
 
 
-  
+
   else {
 
     if (distance <= 5) {
@@ -116,14 +143,14 @@ void loop()
     else if (5 < distance && distance <= 15)
     {
       lc.clearDisplay(0);
-      printByte(defualt);
+      printByte(love);
     }
     else if (15 < distance && distance < 25)
     {
       lc.clearDisplay(0);
       printByte(angry);
     }
-    
+
     else
     {
       lc.clearDisplay(0);
@@ -144,5 +171,6 @@ void printByte(byte character [])
   for (i = 0; i < 8; i++)
   {
     lc.setRow(0, i, character[i]);
+    lc.setRow(1, i, character[i]);
   }
 }
