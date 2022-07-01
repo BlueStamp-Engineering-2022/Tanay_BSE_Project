@@ -3,7 +3,7 @@ This will serve as a brief description of your project. Limit this to three sent
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Tanay Ubale | Lynbrook High School | Electrical Engineering | Incoming Sophomore
+| Tanay U | Lynbrook High School | Electrical Engineering | Incoming Sophomore
 
 ![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLUDq0wRC3qR9qC5dYnIvFOpMj4jKLpGfRvcibnBTSsitnyis_B0NCvtoEBhJSYmV1hCXXPMaOhh-L79sPwUqw2xq2A0KSKWGnK1KC7m80ClOUeC7SOpc8dQ0Sw4YNlts_xtgwZ6cQIKO-CQrxXjb9zQ=w742-h741-no?authuser=0)
   
