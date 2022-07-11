@@ -20,9 +20,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # First Milestone
 My first milestone was to get a sensor to detect how far something is and print it on the LCD. We got it to print the distance in centimeters and project it on the LCD. Something I enjoyed a lot was the wiring and soldering because I really enjoyed doing this since it was hands on. Something I did that I struggled with was the code. We didn’t know how to code it and after a lot of research we got it to work. We had to use a variation for Liquid Crystal to get it to work. I also struggled with following instructions because I soldered something wrong on the wave shield causing it to break. The next step is to attach all the wiring along with the wave shield. 
 
-[![First Milestone](https://img.youtube.com/vi/L0Ch15PeebA/sddefault.jpg)](https://www.youtube.com/watch?v=L0Ch15PeebA "First Milestone")
-(https://lh3.googleusercontent.com/pw/AM-JKLUDq0wRC3qR9qC5dYnIvFOpMj4jKLpGfRvcibnBTSsitnyis_B0NCvtoEBhJSYmV1hCXXPMaOhh-L79sPwUqw2xq2A0KSKWGnK1KC7m80ClOUeC7SOpc8dQ0Sw4YNlts_xtgwZ6cQIKO-CQrxXjb9zQ=w742-h741-no?authuser=0)
-
+[![First Milestone](https://img.youtube.com/vi/L0Ch15PeebA/sddefault.jpg)](https://www.youtube.com/watch?v=L0Ch15PeebA "First Milestone")![Circut](https://lh3.googleusercontent.com/pw/AM-JKLUDq0wRC3qR9qC5dYnIvFOpMj4jKLpGfRvcibnBTSsitnyis_B0NCvtoEBhJSYmV1hCXXPMaOhh-L79sPwUqw2xq2A0KSKWGnK1KC7m80ClOUeC7SOpc8dQ0Sw4YNlts_xtgwZ6cQIKO-CQrxXjb9zQ=w742-h741-no?authuser=0)
 
 {:target="_blank" rel="noopener"}
 
