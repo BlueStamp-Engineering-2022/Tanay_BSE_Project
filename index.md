@@ -20,7 +20,7 @@ My second milestone was distance and instead of printing it on the LCD monitor, 
 # First Milestone
 My first milestone was to get a sensor to detect how far something is and print it on the LCD. We got it to print the distance in centimeters and project it on the LCD. Something I enjoyed a lot was the wiring and soldering because I really enjoyed doing this since it was hands on. Something I did that I struggled with was the code. We didn’t know how to code it and after a lot of research we got it to work. We had to use a variation for Liquid Crystal to get it to work. I also struggled with following instructions because I soldered something wrong on the wave shield causing it to break. The next step is to attach all the wiring along with the wave shield. 
 
-[![First Milestone](https://img.youtube.com/vi/L0Ch15PeebA/sddefault.jpg)](https://www.youtube.com/watch?v=L0Ch15PeebA "First Milestone")![Circut](\https://github.com/BlueStamp-Engineering-2022/Tanay_BSE_Project/blob/gh-pages/Screen%20Shot%202022-07-21%20at%2011.33.22%20AM.png?raw=true)
+[![First Milestone](https://img.youtube.com/vi/L0Ch15PeebA/sddefault.jpg)](https://www.youtube.com/watch?v=L0Ch15PeebA "First Milestone")![Circut](https://github.com/BlueStamp-Engineering-2022/Tanay_BSE_Project/blob/gh-pages/Screen%20Shot%202022-07-21%20at%2011.33.22%20AM.png?raw=true)
 
 {:target="_blank" rel="noopener"}
 
